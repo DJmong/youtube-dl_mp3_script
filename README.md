@@ -1,8 +1,11 @@
 # youtube-dl_mp3_script
-Youtube-dl command option is too long, and I need to make a url list file to download automation
+Youtube-dl command option is too long, and I need to make a url list file to download automation.
+If you want to use this Script, You need to install youtube-dl
+ user $ sudo apt-get install youtube-dl
 
 Language : Shell Script
 OS : Linux [Ubuntu 5.10]
+
 
 # How to Use
 1. Insert Url with Name in list.txt file. delimiter is "," *recommended to use underscores instead of whitespace in the file name
