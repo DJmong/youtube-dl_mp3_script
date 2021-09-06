@@ -31,7 +31,7 @@ do
 	if [ -z "$name" ]; then
 		youtube-dl -x --audio-format mp3 --audio-quality 0 $url
 	else
-		youtube-dl -x --output "$mp3/$name.mp3" --audio-format mp3 --audio-quality 0 $url
+		youtube-dl -x --output "$dir/$name.mp3" --audio-format mp3 --audio-quality 0 $url
 	fi
 # make pass/fail log to $log 
 	if [ 0 -eq $? ]; then
