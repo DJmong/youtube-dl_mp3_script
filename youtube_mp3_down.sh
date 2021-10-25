@@ -38,8 +38,8 @@ do
 		echo "$name download success" >> $log
 	else
 		echo "$name is not downloaded. (url : $url)" >> $log
-		if [ $retry -eq "Y" ]; then
-			echo "$url" >> .$list
+		if [ "$retry" == "Y" ]; then
+			echo "$url,$name" >> .$list
 		fi
 	fi
 done
